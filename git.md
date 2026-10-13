@@ -22,6 +22,7 @@ git status
 
 ```
 git add <filename>
+git add . # 모든 파일/폴더 올리기
 ```
 
 ## commit
