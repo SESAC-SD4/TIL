@@ -31,6 +31,7 @@ git add . # 모든 파일/폴더 올리기
 
 ```
 git commit -m "message"
+git commit --amend -m "fix message" # 마지막 커밋 메세지 수정
 ```
 
 ## log
@@ -43,15 +44,29 @@ git log --oneline # 핵심만 출력
 ```
 
 ## remote add
+
 - 원격저장소 주소를 별명(origin)으로 추가
+
 ```
 git remote add origin https://github.com/SESAC-SD4/TIL.git
 
 ```
 
-## push 
+## push
+
 - 원격 저장소에 업로드
+
 ```
 git push origin main
 git push origin master
+```
+
+## restore
+
+- 수정을 취소하기
+
+```
+git restore <filename>
+git restore .
+git restore --staged <filename> # 무대위에서 내린다
 ```
