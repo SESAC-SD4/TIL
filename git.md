@@ -41,3 +41,17 @@ git commit -m "message"
 git log
 git log --oneline # 핵심만 출력
 ```
+
+## remote add
+- 원격저장소 주소를 별명(origin)으로 추가
+```
+git remote add origin https://github.com/SESAC-SD4/TIL.git
+
+```
+
+## push 
+- 원격 저장소에 업로드
+```
+git push origin main
+git push origin master
+```
